@@ -24,8 +24,8 @@ justify-content: space-between;}
 .title{display: flex;
 justify-content: space-between;}
 
-.menu img{
-  width: 400px;
+.menu img{max-width: 100%;
+height: auto;
 }
 footer{background-color: #141B48;}
 
@@ -41,7 +41,9 @@ height: auto;}
 .shoptitle p{font-size: 22px;
 }
 
-.img2 img{width: 300px;}
+.img2 img{max-width: 100%;
+height: auto;
+}
 .menutitle p{font-size: 22px;}
 .placetitle p{font-size: 22px;}
 .shop{font-size: 15px;}
