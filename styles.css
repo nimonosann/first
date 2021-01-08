@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+body{margin:0px;}
+.all{margin-left: 50px;
+  margin-right: 50px;
+  color: rgb(128, 128, 128);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list ul{display: flex;
+list-style-type: none;
+}
+.list li{
+margin-right: 50px;
+margin-top: 10px;
+font-size: 20px;}
+.set{display: flex;}
+.shop{display: flex;
+justify-content: space-between;}
+.menu{display: flex;
+  justify-content: space-between;
+}
+.title h1{font-size: 25px;}
+.title{display: flex;
+justify-content: space-between;}
+
+.menu img{
+  width: 400px;
+}
+footer{background-color: #141B48;}
+
+
+.title{display: flex;}
+.icon img{width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.show img{max-width: 100%;
+height: auto;}
+.shoptitle p{font-size: 22px;
+}
+
+.img2 img{width: 300px;}
+.menutitle p{font-size: 22px;}
+.placetitle p{font-size: 22px;}
+.shop{font-size: 15px;}
+.yoyaku{border-right: solid;
+border-width: 1px;
+border-color: darkgrey;
+padding-right: 50px;}
+footer{padding-top: 20px;
+padding-bottom: 20px;
+color: snow;
+font-size: 13px;
+text-align: center;}
+.place{display: flex;
+justify-content: flex-start;
+font-size: 15px;}
+.list li {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.list li::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.list li:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* フェードイン用のCSS */
+.slide-bottom {
+  opacity: 1;
+  transform: translateY(30px);
+  transition: all 1.3s 0s ease-out;
+}
