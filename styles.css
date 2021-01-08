@@ -28,7 +28,8 @@ justify-content: space-between;}
 height: auto;
 }
 footer{background-color: #141B48;}
-
+.google iframe{max-width:100%;
+height:auto;}
 
 .title{display: flex;}
 .icon img{width: 30px;
