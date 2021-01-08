@@ -91,7 +91,7 @@ font-size: 15px;}
   .title h1{font-size:2,5rem;}
   .title{
  flex-direction: column;
-  align-items: center; }
+ }
 
   .list ul{flex-direction:column;
     font-size: 1rem;
